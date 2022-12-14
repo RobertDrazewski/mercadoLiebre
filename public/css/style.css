@@ -145,6 +145,7 @@ h2{ margin: 15px;
 .box-product{
     background-color: white;
     margin-bottom: 10px;
+    position: relative;
     
     }
 
@@ -160,6 +161,7 @@ h2{ margin: 15px;
     text-align: left;
         
 }
+
 .precio{
     font-weight: bold;
     font-size: 18px;
@@ -185,7 +187,7 @@ h2{ margin: 15px;
     border: 1px solid var(--Verde) ; 
     background-color: #FFF; 
     border-radius: 50%; 
-    position:relative; 
+    position:absolute; 
     right: 20px; 
     top: -15px;
     transition: all 1ms;
