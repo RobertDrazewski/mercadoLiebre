@@ -331,12 +331,13 @@ form{display: flex;
 /*Register*/
 
 .register{
-   
+    margin: 20px;
+    padding: 20px;
     box-sizing: border-box;
 }
 form{display: flex;
     flex-direction: column;}
     
 .register-form{
-       padding: 15px;
+       padding: 25px;
     }
