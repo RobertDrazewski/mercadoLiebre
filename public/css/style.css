@@ -1,125 +1,72 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;   
 }
-:root{
-    --Amarillo: #EAC926;
-    --Azul: #03264C;
-    --Celeste: #1259c3;
-    --GrisOscuro: #666;
-    --GrisClaro: #ebebeb;
-    --Verde: #39b54a;
-}
-/*BODY*/
-body{
-    background-color: var(--GrisClaro);
+
+
+
+header {
+    background-color: #EAC926;
     
 }
-/*Header*/
 
-.main-header{
-    background-color: var(--Amarillo);
-    padding: 20px;
+.logo-search {
+    padding: 10px;
     width: 100%;
-    
-    top:0%;
-    }
-.img-logo{ 
-    width: 49%;
-
-}
-.copy-header{
-    font-weight: 400;
-    text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-    /*barra de busqueda y logo*/
-.main-header-top-bar{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
-}    
-.top-bar-con-busqueda{
-    display: flex;
-    flex-wrap: wrap;
-    
-}    
-.barra-de-busqueda{    
-    text-align: center;
-    padding: 15px;
+.titulo-cuotas-header {
+    display: none;
+}
+
+.logo {
     width: 50%;
-    
-}
-        /*lupa*/
-.bx-search-alt-2{
-    margin-left: 2px;
-    margin-right: 2px;
-
-    
 }
 
-    /*Hamburguesa*/
-.boton-hamburguesa{
-    background-color: var(--Celeste);
-    color: #ffffff;
-    display: block;
-    max-width: 35px;
-    padding: 2px 0;
-    border-radius: 7px;
-    text-align: center;
-    font-size: 1.5em;
-    margin: auto; 
-    
+.search-bar {
+    padding: 10px;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-    /*nav-bar*/
-.nav-bar {    
+.search-bar i {
+    opacity: 50%;
+}
+
+.search-bar input {
+    outline: none;
+    height: 38px;
+    width: 80%;
+    border: none;
+}
+
+
+.nav-options-container {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.nav-options, .nav-options1 {
     display: none;
 }
-.nav-bar ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+body {
+    background-color: #ebebeb;
+    
 }
-
-.nav-bar a{
-    text-decoration: none;
-    color: #222222;
-    display: inline-block;
-    padding: 5px 0;
-    font-size: 17px;
-}
-
-
-
-.navegacion{ 
-     text-align: left; 
-}
-.hamburguer{
-    display: none;
-    text-align: center;
-       
-}
-.bx-menu{ color: white;
-    background-color:  var(--Celeste);
-    font-size: 2em;
-    border-radius: 20%;
-    margin: 1em;
-    }
-
-
-
-/*BANNER*/
-.banner{ width: 100%;
-    display: block;  
-
-}
-
-
 /*Main*/
 main{
     width: 90%;
