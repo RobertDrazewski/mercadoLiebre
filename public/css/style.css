@@ -290,7 +290,7 @@ a {
     padding-bottom: 10px;
 }
 
-.form-nuevo-usuario {
+.register-form {
     margin: auto;
     width: 100%;
     max-width: 400px;
@@ -301,14 +301,14 @@ a {
     padding: 110px 0px 110px 0px;
 }
 
-.form-nuevo-usuario h2 {
+.register-form h2 {
     padding: 5px 0px 5px 10px;
     
     text-align: left;
     font-size: 14px;
 }
 
-.form-nuevo-usuario input {
+.register-form input {
     border: 1px solid rgb(230, 226, 226);
     border-radius: 5px;
     width: 95%;
@@ -317,7 +317,7 @@ a {
     ;
 }
 
-.form-nuevo-usuario button {
+.register-form button {
     width: 100px;
     height: 40px;
     background-color: #d4d7d4;
@@ -325,23 +325,23 @@ a {
     color: black;
 }
 
-.form-nuevo-usuario input:hover {
+.register-form input:hover {
     box-shadow: grey 2px 2px 2px 2px;
 }
 
-.form-nuevo-usuario label {
+.register-form label {
     
     
     font-size: 14px;
 }
 
-.perfil-comprador {
+.perfil-usuario {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
 }
 
-.perfil-comprador input:hover {
+.perfil-usuario input:hover {
     box-shadow: none; 
 }
 
