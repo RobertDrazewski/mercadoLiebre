@@ -67,7 +67,6 @@ body {
     background-color: #ebebeb;
     
 }
-/*Main*/
 main {
     width: 90%;
     margin: auto;
@@ -194,11 +193,17 @@ p {
     
 }
 
+
+
+
+
 a {
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
+
+
 
 .titulo-cuotas-nav {
     width: 100%;
@@ -244,6 +249,8 @@ a {
     display: block;
 }
 
+
+
 .seccion-inferior {
     color: #1259c3;
     padding-top: 10px;
@@ -257,6 +264,7 @@ a {
     display: flex;
     flex-direction: column;
 }
+
 .seccion-inferior i:hover {
     color: #EAC926;
 }
@@ -282,9 +290,124 @@ a {
     padding-bottom: 10px;
 }
 
+.form-nuevo-usuario {
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 110px 0px 110px 0px;
+}
+
+.form-nuevo-usuario h2 {
+    padding: 5px 0px 5px 10px;
+    
+    text-align: left;
+    font-size: 14px;
+}
+
+.form-nuevo-usuario input {
+    border: 1px solid rgb(230, 226, 226);
+    border-radius: 5px;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    ;
+}
+
+.form-nuevo-usuario button {
+    width: 100px;
+    height: 40px;
+    background-color: #d4d7d4;
+    align-self: center;
+    color: black;
+}
+
+.form-nuevo-usuario input:hover {
+    box-shadow: grey 2px 2px 2px 2px;
+}
+
+.form-nuevo-usuario label {
+    
+    
+    font-size: 14px;
+}
+
+.perfil-comprador {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.perfil-comprador input:hover {
+    box-shadow: none; 
+}
+
+.form-intereses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-intereses .intereses {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+}
+
+.button-register {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    
+}
+
+.button-register button {
+    border: 1px solid rgb(210, 207, 207);
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.button-register button:hover {
+    border: 1px solid black
+    
+}
+
+.button-register-send {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    
+}
+
+.button-register-send button {
+    border-radius: 5px;
+    width: 60%;
+    border: 1px solid rgb(210, 207, 207);
+    cursor: pointer;
+    background-color: #1259c3;
+    color: white;
+    
+}
+
+.button-register-send button:hover {
+    border: 1px solid black;
+    background-color: #0022AA;
+}
+
 footer {
     bottom: 0px;
 }
+
+
 @media (min-width: 425px) {
     .nav-options, .nav-options1 {
         display: block;
